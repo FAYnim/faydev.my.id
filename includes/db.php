@@ -7,7 +7,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'faydev_db');
+define('DB_NAME', 'fayd7716_project');
 
 function getDB(): PDO {
     static $pdo = null;

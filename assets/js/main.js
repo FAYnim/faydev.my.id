@@ -216,11 +216,7 @@
                 </div>
                 <div class="project-body">
                     <span class="project-date">${formatDate(project.project_date)}</span>
-                    <h3 class="project-title">
-                        <a href="project.php?id=${encodeURIComponent(project.id)}">
-                            ${escHtml(project.title)}
-                        </a>
-                    </h3>
+                    <h3 class="project-title">${escHtml(project.title)}</h3>
                     ${demoBtn}
                 </div>`;
 
