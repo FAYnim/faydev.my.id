@@ -92,7 +92,7 @@
             </div>
 
             <p class="hero-desc reveal-up" style="--delay:.35s">
-                Saya membangun solusi digital yang <em>berdampak nyata</em> untuk bisnis kecil dan UMKM—mulai dari website, landing page, hingga otomasi dan chatbot.
+                Membangun solusi digital yang <em>berdampak nyata</em> untuk bisnis kecil dan UMKM mulai dari website, landing page, hingga otomasi dan chatbot.
             </p>
 
             <div class="hero-ctas reveal-up" style="--delay:.45s">
@@ -112,7 +112,7 @@
             <div class="profile-frame">
                 <div class="profile-ring"></div>
                 <div class="profile-img-wrap">
-                    <img src="assets/images/profile.jpg" 
+                    <img src="assets/images/faydev.my.id-profile-picture.webp" 
                          alt="Faris AY — Software & Web Developer" 
                          class="profile-img"
                          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
@@ -122,11 +122,11 @@
                 </div>
                 <!-- Floating stat cards -->
                 <div class="stat-card stat-card--top">
-                    <span class="stat-num">3+</span>
+                    <span class="stat-num">4+</span>
                     <span class="stat-label">Tahun exp.</span>
                 </div>
                 <div class="stat-card stat-card--bottom">
-                    <span class="stat-num">30+</span>
+                    <span class="stat-num">5+</span>
                     <span class="stat-label">Projects selesai</span>
                 </div>
             </div>
@@ -152,13 +152,13 @@
         <div class="about-grid">
             <div class="about-text reveal-up" style="--delay:.1s">
                 <p class="about-lead">
-                    Halo! Saya <strong>Faris AY</strong>, seorang <em>Software Engineer & Fullstack Developer</em> yang berfokus pada membantu UMKM dan bisnis kecil bertumbuh lewat teknologi.
+                    Halo! Saya <strong>Faris AY</strong>, seorang <em>Software Engineer & Fullstack Developer</em> yang berfokus membantu UMKM dan bisnis kecil bertumbuh lewat teknologi modern.
                 </p>
                 <p>
-                    Berawal dari rasa penasaran terhadap cara kerja website, kini saya telah mengerjakan puluhan project mulai dari toko online sederhana hingga sistem otomasi bisnis dan chatbot WhatsApp.
+                    Berbekal pengalaman dalam pengembangan perangkat lunak, saya merancang solusi digital yang praktis dan berdampak nyata. Mulai dari pembuatan toko online, landing page, hingga integrasi kecerdasan buatan (AI) dan sistem otomasi alur kerja.
                 </p>
                 <p>
-                    Saya percaya teknologi seharusnya <em>terjangkau dan accessible</em> untuk semua lapisan bisnis—bukan hanya perusahaan besar. Itulah mengapa saya fokus melayani segmen UMKM.
+                    Saya percaya teknologi hadir untuk membantu orang bekerja lebih cerdas. Oleh karena itu, saya berkomitmen untuk <em>menghadirkan solusi teknologi yang efisien, terjangkau, dan dapat diandalkan</em> untuk mendongkrak efisiensi bisnis Anda.
                 </p>
                 <div class="about-facts">
                     <div class="fact-item">
@@ -188,8 +188,8 @@
   <span class="t-key">"alias"</span><span class="t-punct">:</span> <span class="t-str">"faydev"</span><span class="t-punct">,</span>
   <span class="t-key">"role"</span><span class="t-punct">:</span> <span class="t-str">"Fullstack Developer"</span><span class="t-punct">,</span>
   <span class="t-key">"focus"</span><span class="t-punct">:</span> <span class="t-str">"UMKM &amp; Small Business"</span><span class="t-punct">,</span>
-  <span class="t-key">"experience"</span><span class="t-punct">:</span> <span class="t-num">3</span><span class="t-punct">,</span>
-  <span class="t-key">"projects_done"</span><span class="t-punct">:</span> <span class="t-num">30</span><span class="t-punct">,</span>
+  <span class="t-key">"experience"</span><span class="t-punct">:</span> <span class="t-num">4</span><span class="t-punct">,</span>
+  <span class="t-key">"projects_done"</span><span class="t-punct">:</span> <span class="t-num">5</span><span class="t-punct">,</span>
   <span class="t-key">"available"</span><span class="t-punct">:</span> <span class="t-bool">true</span><span class="t-punct">,</span>
   <span class="t-key">"services"</span><span class="t-punct">:</span> <span class="t-punct">[</span>
     <span class="t-str">"Web Development"</span><span class="t-punct">,</span>
@@ -277,13 +277,13 @@
                 </div>
                 <h3 class="service-title">Web Development</h3>
                 <p class="service-desc">
-                    Pembuatan website custom profesional untuk bisnis Anda—responsif, cepat, dan mudah dikelola.
+                    Pembuatan website custom profesional untuk bisnis Anda. Responsif, cepat, dan mudah dikelola.
                 </p>
                 <ul class="service-features">
                     <li>Company profile & portfolio</li>
                     <li>Toko online / e-commerce</li>
                     <li>Sistem manajemen konten</li>
-                    <li>Optimasi SEO dasar</li>
+                    <li>Optimasi SEO</li>
                 </ul>
                 <div class="service-cta">
                     <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Web%20Development." 
@@ -322,7 +322,7 @@
                 </div>
                 <h3 class="service-title">Automation</h3>
                 <p class="service-desc">
-                    Otomasi proses bisnis yang berulang—hemat waktu, kurangi error, tingkatkan produktivitas.
+                    Otomasi proses bisnis yang berulang. Hemat waktu, kurangi error, tingkatkan produktivitas.
                 </p>
                 <ul class="service-features">
                     <li>Laporan otomatis</li>
@@ -386,7 +386,7 @@
         </div>
 
         <div class="projects-footer reveal-up">
-            <a href="https://projects.faydev.my.id" class="btn btn--outline" target="_blank" rel="noopener">
+            <a href="https://app.faydev.my.id" class="btn btn--outline" target="_blank" rel="noopener">
                 <i class="fas fa-th-large"></i>
                 View All Projects
             </a>
@@ -406,7 +406,7 @@
                 <span class="section-tag">// 05</span>
                 <h2 class="contact-title">Siap Memulai Project?</h2>
                 <p class="contact-desc">
-                    Ceritakan kebutuhan bisnis Anda. Saya siap membantu menemukan solusi digital yang tepat—konsultasi pertama <strong>gratis</strong>.
+                    Ceritakan kebutuhan bisnis Anda. Saya siap membantu menemukan solusi digital yang tepat. Konsultasi pertama <strong>gratis</strong>.
                 </p>
 
                 <a href="https://wa.me/6281234567890?text=Halo%20Faris%2C%20saya%20ingin%20konsultasi%20mengenai%20project%20saya." 
@@ -425,10 +425,10 @@
         <!-- Social links injected by JS -->
         <div class="social-links reveal-up" id="socialLinks">
             <!-- Fallback static links -->
-            <a href="https://instagram.com/faydev"  class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://linkedin.com/in/faydev" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/faydev"      class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://threads.net/@faydev"    class="social-link" target="_blank" rel="noopener" aria-label="Threads"><i class="fab fa-threads"></i></a>
+            <a href="https://instagram.com/fay.developer"  class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/faris-ay" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/faynim"      class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://threads.net/@faris.a.y"    class="social-link" target="_blank" rel="noopener" aria-label="Threads"><i class="fab fa-threads"></i></a>
             <a href="https://tiktok.com/@faydev"     class="social-link" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
         </div>
     </div>
