@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO: Primary Meta Tags -->
-    <title>Faris AY | Faydev — Jasa Web Developer & Software Developer untuk UMKM Indonesia</title>
-    <meta name="description" content="Faris AY (Faydev) adalah Software Engineer & Fullstack Developer spesialis jasa pembuatan website, landing page, automation, dan chatbot WhatsApp untuk UMKM dan bisnis kecil di Indonesia. Konsultasi gratis.">
+    <title>Faris AY - Faydev | Jasa Developer Web & Software UMKM</title>
+    <meta name="description" content="Jasa pembuatan website, landing page, automation & chatbot WA untuk UMKM Indonesia oleh Faydev. Tingkatkan bisnis Anda sekarang. Konsultasi gratis!">
     <meta name="keywords" content="jasa web developer UMKM Indonesia, jasa buat website UMKM, jasa landing page UMKM, jasa chatbot WhatsApp, web developer freelance Indonesia, software developer UMKM, fullstack developer Indonesia, Faris AY, Faydev">
     <meta name="author" content="Faris AY">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
