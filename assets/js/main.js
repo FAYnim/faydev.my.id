@@ -1,14 +1,6 @@
-/**
- * Faydev — main.js
- * Dark mode toggle | Typing animation | Scroll reveals
- * Mobile menu | Navbar scroll | Projects fetch | Social links fetch
- * Back to top | Active nav | Skill bar animation
- */
-
 (() => {
     'use strict';
 
-    /* ─── THEME ───────────────────────────────────────────────── */
     const htmlEl        = document.documentElement;
     const themeToggleEl = document.getElementById('themeToggle');
     const THEME_KEY     = 'faydev-theme';
@@ -36,7 +28,6 @@
     initTheme();
 
 
-    /* ─── MOBILE NAV ──────────────────────────────────────────── */
     const hamburgerEl = document.getElementById('hamburger');
     const navLinksEl  = document.getElementById('navLinks');
 
@@ -55,7 +46,6 @@
     });
 
 
-    /* ─── NAVBAR SCROLL ───────────────────────────────────────── */
     const navbarEl = document.getElementById('navbar');
 
     function handleNavbarScroll() {
@@ -70,7 +60,6 @@
     handleNavbarScroll();
 
 
-    /* ─── ACTIVE NAV LINK ─────────────────────────────────────── */
     const sections   = document.querySelectorAll('section[id]');
     const navLinks   = document.querySelectorAll('.nav-link');
 
@@ -91,7 +80,6 @@
     window.addEventListener('scroll', updateActiveNav, { passive: true });
 
 
-    /* ─── TYPING ANIMATION ────────────────────────────────────── */
     const typedEl = document.getElementById('typedText');
     const roles   = [
         'Software Engineer',
@@ -103,8 +91,6 @@
     let roleIndex   = 0;
     let charIndex   = 0;
     let isDeleting  = false;
-    let typingTimer = null;
-
     function typeLoop() {
         const currentRole = roles[roleIndex];
 
@@ -127,16 +113,13 @@
             delay = 400;
         }
 
-        typingTimer = setTimeout(typeLoop, delay);
+        setTimeout(typeLoop, delay);
     }
 
     if (typedEl) {
-        // Small delay so page loads first
         setTimeout(typeLoop, 800);
     }
 
-
-    /* ─── INTERSECTION OBSERVER: REVEAL ──────────────────────── */
     const revealEls = document.querySelectorAll('.reveal-up, .reveal-right');
 
     const revealObserver = new IntersectionObserver((entries) => {
@@ -151,7 +134,6 @@
     revealEls.forEach(el => revealObserver.observe(el));
 
 
-    /* ─── SKILL BAR ANIMATION ─────────────────────────────────── */
     const skillFills = document.querySelectorAll('.skill-fill');
 
     const skillObserver = new IntersectionObserver((entries) => {
@@ -166,7 +148,6 @@
     skillFills.forEach(el => skillObserver.observe(el));
 
 
-    /* ─── BACK TO TOP ─────────────────────────────────────────── */
     const backToTopEl = document.getElementById('backToTop');
 
     window.addEventListener('scroll', () => {
@@ -178,7 +159,6 @@
     });
 
 
-    /* ─── FETCH PROJECTS ──────────────────────────────────────── */
     const projectsGrid = document.getElementById('projectsGrid');
 
     function formatDate(dateStr) {
@@ -241,7 +221,6 @@
     fetchProjects();
 
 
-    /* ─── FETCH SOCIAL LINKS ──────────────────────────────────── */
     const socialLinksEl = document.getElementById('socialLinks');
 
     async function fetchSocialLinks() {
@@ -258,15 +237,12 @@
                         <i class="${escHtml(link.icon)}"></i>
                     </a>`).join('');
             }
-        } catch {
-            // Fallback static links already in HTML
-        }
+        } catch {}
     }
 
     fetchSocialLinks();
 
 
-    /* ─── UTILITY: HTML ESCAPE ────────────────────────────────── */
     function escHtml(str) {
         if (!str) return '';
         return String(str)

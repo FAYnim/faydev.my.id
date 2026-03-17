@@ -208,10 +208,6 @@
     <link rel="manifest" href="assets/images/site.webmanifest">
 </head>
 <body>
-
-<!-- ============================================================
-     NAVBAR
-============================================================ -->
 <header>
 <nav class="navbar" id="navbar">
     <div class="nav-container">
@@ -243,13 +239,8 @@
 </header>
 
 <main>
-<!-- ============================================================
-     HERO SECTION
-============================================================ -->
 <section class="hero" id="hero">
-    <!-- Decorative background grid -->
     <div class="hero-grid" aria-hidden="true"></div>
-    <!-- Floating orbs -->
     <div class="hero-orb hero-orb--1" aria-hidden="true"></div>
     <div class="hero-orb hero-orb--2" aria-hidden="true"></div>
 
@@ -298,7 +289,6 @@
                         <span>FA</span>
                     </div>
                 </div>
-                <!-- Floating stat cards -->
                 <div class="stat-card stat-card--top">
                     <span class="stat-num">4+</span>
                     <span class="stat-label">Tahun exp.</span>
@@ -316,10 +306,6 @@
         <i class="fas fa-chevron-down"></i>
     </div>
 </section>
-
-<!-- ============================================================
-     ABOUT SECTION
-============================================================ -->
 <section class="section about-section" id="about">
     <div class="container">
         <div class="section-header reveal-up">
@@ -380,10 +366,6 @@
         </div>
     </div>
 </section>
-
-<!-- ============================================================
-     SKILLS SECTION
-============================================================ -->
 <section class="section skills-section" id="skills">
     <div class="container">
         <div class="section-header reveal-up">
@@ -392,7 +374,6 @@
         </div>
 
         <div class="skills-grid">
-            <!-- Frontend -->
             <div class="skill-group reveal-up" style="--delay:.05s">
                 <div class="skill-group-header">
                     <i class="fas fa-desktop"></i>
@@ -406,7 +387,6 @@
                 </ul>
             </div>
 
-            <!-- Backend -->
             <div class="skill-group reveal-up" style="--delay:.1s">
                 <div class="skill-group-header">
                     <i class="fas fa-server"></i>
@@ -420,7 +400,6 @@
                 </ul>
             </div>
 
-            <!-- Automation & Tools -->
             <div class="skill-group reveal-up" style="--delay:.15s">
                 <div class="skill-group-header">
                     <i class="fas fa-robot"></i>
@@ -436,10 +415,6 @@
         </div>
     </div>
 </section>
-
-<!-- ============================================================
-     SERVICES SECTION
-============================================================ -->
 <section class="section services-section" id="services">
     <div class="container">
         <div class="section-header reveal-up">
@@ -540,10 +515,6 @@
         </div>
     </div>
 </section>
-
-<!-- ============================================================
-     PROJECTS SECTION
-============================================================ -->
 <section class="section projects-section" id="projects">
     <div class="container">
         <div class="section-header reveal-up">
@@ -552,9 +523,7 @@
             <p class="section-subtitle">Beberapa project terbaru yang telah saya kerjakan</p>
         </div>
 
-        <!-- Project grid populated by JS -->
         <div class="projects-grid" id="projectsGrid">
-            <!-- Skeleton loaders -->
             <div class="project-skeleton"></div>
             <div class="project-skeleton"></div>
             <div class="project-skeleton"></div>
@@ -571,10 +540,6 @@
         </div>
     </div>
 </section>
-
-<!-- ============================================================
-     CONTACT SECTION
-============================================================ -->
 <section class="section contact-section" id="contact">
     <div class="container">
         <div class="contact-wrap reveal-up">
@@ -600,9 +565,7 @@
             </div>
         </div>
 
-        <!-- Social links injected by JS -->
         <div class="social-links reveal-up" id="socialLinks">
-            <!-- Fallback static links -->
             <a href="https://instagram.com/fay.developer"  class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://linkedin.com/in/faris-ay" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/faynim"      class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
@@ -611,10 +574,6 @@
         </div>
     </div>
 </section>
-
-<!-- ============================================================
-     FAQ SECTION (AI SEO: extractable Q&A content)
-============================================================ -->
 <section class="section faq-section" id="faq">
     <div class="container">
         <div class="section-header reveal-up">
@@ -670,10 +629,6 @@
 </section>
 
 </main>
-
-<!-- ============================================================
-     FOOTER
-============================================================ -->
 <footer class="footer">
     <div class="container">
         <div class="footer-inner">
@@ -698,8 +653,6 @@
         </div>
     </div>
 </footer>
-
-<!-- Back to top -->
 <button class="back-to-top" id="backToTop" aria-label="Back to top">
     <i class="fas fa-chevron-up"></i>
 </button>

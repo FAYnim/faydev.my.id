@@ -1,18 +1,10 @@
-/* =============================================================
-   Faydev — Terminal Botanical Design System
-   Dark-first, green-accented, Syne + DM Sans
-   ============================================================= */
-
-/* ─── 1. CUSTOM PROPERTIES ─────────────────────────────────── */
 :root {
-    /* Brand colors */
     --clr-green-400: #4ade80;
     --clr-green-500: #22c55e;
     --clr-green-600: #16a34a;
     --clr-green-700: #15803d;
     --clr-green-900: #14532d;
 
-    /* Dark theme (default) */
     --bg-base:        #0b0f0c;
     --bg-surface:     #111914;
     --bg-elevated:    #182117;
@@ -31,7 +23,6 @@
     --nav-bg:         rgba(11,15,12,.85);
     --nav-border:     rgba(30,45,31,.8);
 
-    /* Spacing */
     --section-pad:    7rem 0;
     --container-max:  1160px;
     --radius-sm:      6px;
@@ -39,12 +30,10 @@
     --radius-lg:      20px;
     --radius-xl:      28px;
 
-    /* Transitions */
     --trans-fast:  .15s ease;
     --trans-mid:   .3s ease;
     --trans-slow:  .55s cubic-bezier(.25,.46,.45,.94);
 
-    /* Fonts */
     --font-display: 'Syne', sans-serif;
     --font-body:    'DM Sans', sans-serif;
 }
@@ -69,7 +58,6 @@
     --nav-border:     rgba(209,228,209,.9);
 }
 
-/* ─── 2. BASE RESET ─────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
@@ -92,7 +80,6 @@ a  { color: inherit; text-decoration: none; }
 ul { list-style: none; }
 button { cursor: pointer; border: none; background: none; font: inherit; }
 
-/* Noise overlay for texture */
 body::before {
     content: '';
     position: fixed;
@@ -103,7 +90,6 @@ body::before {
     z-index: 9999;
 }
 
-/* ─── 3. TYPOGRAPHY ─────────────────────────────────────────── */
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--font-display);
     font-weight: 700;
@@ -121,7 +107,6 @@ code, pre {
     font-size: .875em;
 }
 
-/* ─── 4. LAYOUT ─────────────────────────────────────────────── */
 .container {
     width: 100%;
     max-width: var(--container-max);
@@ -131,7 +116,6 @@ code, pre {
 
 .section { padding: var(--section-pad); }
 
-/* ─── 5. REVEAL ANIMATIONS ──────────────────────────────────── */
 .reveal-up,
 .reveal-right {
     opacity: 0;
@@ -144,7 +128,6 @@ code, pre {
 .revealed.reveal-up,
 .revealed.reveal-right { opacity: 1; transform: none; }
 
-/* ─── 6. NAVBAR ─────────────────────────────────────────────── */
 .navbar {
     position: fixed;
     top: 0;
@@ -234,7 +217,6 @@ code, pre {
     gap: .75rem;
 }
 
-/* Theme toggle */
 .theme-toggle {
     width: 36px;
     height: 36px;
@@ -264,7 +246,6 @@ code, pre {
 [data-theme="light"] .toggle-sun  { opacity: 0;  transform: scale(.5); }
 [data-theme="light"] .toggle-moon { opacity: 1;  transform: scale(1); }
 
-/* Hamburger */
 .nav-hamburger {
     display: none;
     flex-direction: column;
@@ -283,7 +264,6 @@ code, pre {
 .nav-hamburger.open span:nth-child(2) { opacity: 0; }
 .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ─── 7. HERO ────────────────────────────────────────────────── */
 .hero {
     min-height: 100svh;
     display: flex;
@@ -293,7 +273,6 @@ code, pre {
     padding: 6rem 0 4rem;
 }
 
-/* Dot grid */
 .hero-grid {
     position: absolute;
     inset: 0;
@@ -342,7 +321,6 @@ code, pre {
     z-index: 1;
 }
 
-/* Badge */
 .hero-badge {
     display: inline-flex;
     align-items: center;
@@ -401,7 +379,6 @@ code, pre {
     line-height: 1.75;
 }
 
-/* CTA buttons */
 .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
 
 .btn {
@@ -459,7 +436,6 @@ code, pre {
     transform: translateY(-2px);
 }
 
-/* Profile visual */
 .hero-visual {
     display: flex;
     justify-content: center;
@@ -510,7 +486,6 @@ code, pre {
     background: var(--bg-elevated);
 }
 
-/* Stat cards */
 .stat-card {
     position: absolute;
     background: var(--card-bg);
@@ -529,7 +504,6 @@ code, pre {
 .stat-num   { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; color: var(--txt-accent); }
 .stat-label { font-size: .75rem; color: var(--txt-muted); }
 
-/* Scroll hint */
 .scroll-hint {
     position: absolute;
     bottom: 2rem;
@@ -550,7 +524,6 @@ code, pre {
     50%      { transform: translateX(-50%) translateY(5px); }
 }
 
-/* ─── 8. SECTION HEADERS ─────────────────────────────────────── */
 .section-header {
     margin-bottom: 3.5rem;
 }
@@ -576,7 +549,6 @@ code, pre {
     color: var(--txt-secondary);
 }
 
-/* ─── 9. ABOUT ──────────────────────────────────────────────── */
 .about-section { background: var(--bg-surface); }
 
 .about-grid {
@@ -609,7 +581,6 @@ code, pre {
 }
 .fact-item i { color: var(--txt-accent); font-size: .8rem; }
 
-/* Terminal card */
 .about-terminal {
     background: #0d1410;
     border: 1px solid var(--bg-border);
@@ -660,7 +631,6 @@ code, pre {
 .t-bool  { color: #ef9a9a; }
 .t-punct { color: #546e5a; }
 
-/* ─── 10. SKILLS ────────────────────────────────────────────── */
 .skills-section { background: var(--bg-base); }
 
 .skills-grid {
@@ -720,7 +690,6 @@ code, pre {
 
 .skill-fill.animated { width: var(--pct); }
 
-/* ─── 11. SERVICES ──────────────────────────────────────────── */
 .services-section { background: var(--bg-surface); }
 
 .services-grid {
@@ -823,7 +792,6 @@ code, pre {
     color: var(--clr-green-300, var(--clr-green-400));
 }
 
-/* ─── 12. PROJECTS ──────────────────────────────────────────── */
 .projects-section { background: var(--bg-base); }
 
 .projects-grid {
@@ -833,7 +801,6 @@ code, pre {
     margin-bottom: 3rem;
 }
 
-/* Project card (injected by JS) */
 .project-card {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -904,7 +871,6 @@ code, pre {
 }
 .project-demo:hover { gap: .6rem; }
 
-/* Skeleton */
 .project-skeleton {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -931,7 +897,6 @@ code, pre {
     justify-content: center;
 }
 
-/* ─── 13. CONTACT ───────────────────────────────────────────── */
 .contact-section {
     background: var(--bg-surface);
     padding: 7rem 0 4rem;
@@ -994,7 +959,6 @@ code, pre {
     margin-top: .5rem;
 }
 
-/* Social links */
 .social-links {
     display: flex;
     justify-content: center;
@@ -1023,7 +987,6 @@ code, pre {
     box-shadow: 0 8px 20px rgba(34,197,94,.3);
 }
 
-/* ─── 14. FOOTER ────────────────────────────────────────────── */
 .footer {
     background: var(--bg-base);
     border-top: 1px solid var(--bg-border);
@@ -1068,7 +1031,6 @@ code, pre {
 }
 .footer-bottom i { color: #ef4444; font-size: .75rem; }
 
-/* ─── 15. BACK TO TOP ───────────────────────────────────────── */
 .back-to-top {
     position: fixed;
     bottom: 2rem;
@@ -1096,10 +1058,6 @@ code, pre {
     transform: translateY(-3px);
 }
 
-/* ─── 16. PROJECT PLACEHOLDER SVG ──────────────────────────── */
-/* SVG placeholder generated inline */
-
-/* ─── 16B. SR-ONLY (screen reader only) ────────────────────── */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -1112,7 +1070,6 @@ code, pre {
     border: 0;
 }
 
-/* ─── 16C. FAQ SECTION ──────────────────────────────────────── */
 .faq-section {
     background: var(--bg-base);
 }
@@ -1185,7 +1142,6 @@ code, pre {
     color: var(--clr-green-400);
 }
 
-/* ─── 17. RESPONSIVE ────────────────────────────────────────── */
 @media (max-width: 1024px) {
     .hero-container { gap: 2.5rem; }
     .profile-frame  { width: 280px; height: 280px; }
@@ -1196,7 +1152,6 @@ code, pre {
 @media (max-width: 768px) {
     :root { --section-pad: 5rem 0; }
 
-    /* Navbar mobile */
     .nav-links {
         position: fixed;
         top: 0; left: 0; right: 0;
@@ -1214,7 +1169,6 @@ code, pre {
     .nav-link { font-size: 1.25rem; }
     .nav-hamburger { display: flex; z-index: 100; position: relative; }
 
-    /* Hero */
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
@@ -1227,16 +1181,12 @@ code, pre {
     .stat-card--top    { top: 0%; right: -2%; }
     .stat-card--bottom { bottom: 0%; left: -4%; }
 
-    /* About */
     .about-grid { grid-template-columns: 1fr; }
 
-    /* Skills */
     .skills-grid { grid-template-columns: 1fr; }
 
-    /* Services */
     .services-grid { grid-template-columns: 1fr; }
 
-    /* Projects */
     .projects-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -1251,16 +1201,13 @@ code, pre {
     .btn--whatsapp.btn--large { width: 100%; justify-content: center; }
 }
 
-/* ─── 18. SCROLLBAR ─────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-base); }
 ::-webkit-scrollbar-thumb { background: var(--bg-border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--txt-muted); }
 
-/* ─── 19. SELECTION ─────────────────────────────────────────── */
 ::selection { background: rgba(34,197,94,.25); color: var(--txt-primary); }
 
-/* ─── 20. FOCUS VISIBLE ─────────────────────────────────────── */
 :focus-visible {
     outline: 2px solid var(--txt-accent);
     outline-offset: 3px;
