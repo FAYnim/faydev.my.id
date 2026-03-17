@@ -33,7 +33,11 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
 </head>
 <body>
 
@@ -43,7 +47,8 @@
 <nav class="navbar" id="navbar">
     <div class="nav-container">
         <a href="#" class="nav-logo">
-            <span class="logo-bracket">[</span>faydev<span class="logo-bracket">]</span>
+            <img src="assets/images/faydev-logo.webp" alt="Faydev logo" class="nav-logo-img">
+            <span class="nav-logo-text">faydev</span>
         </a>
 
         <ul class="nav-links" id="navLinks">
@@ -442,7 +447,8 @@
         <div class="footer-inner">
             <div class="footer-brand">
                 <a href="#" class="nav-logo">
-                    <span class="logo-bracket">[</span>faydev<span class="logo-bracket">]</span>
+                    <img src="assets/images/faydev-logo.webp" alt="Faydev logo" class="nav-logo-img">
+                    <span class="nav-logo-text">faydev</span>
                 </a>
                 <p>Software & Web Developer untuk UMKM</p>
             </div>
