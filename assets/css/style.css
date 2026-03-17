@@ -1099,6 +1099,92 @@ code, pre {
 /* ─── 16. PROJECT PLACEHOLDER SVG ──────────────────────────── */
 /* SVG placeholder generated inline */
 
+/* ─── 16B. SR-ONLY (screen reader only) ────────────────────── */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ─── 16C. FAQ SECTION ──────────────────────────────────────── */
+.faq-section {
+    background: var(--bg-base);
+}
+
+.faq-list {
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.faq-item {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: border-color var(--trans-fast);
+}
+
+.faq-item:hover,
+.faq-item[open] {
+    border-color: var(--txt-accent);
+}
+
+.faq-question {
+    padding: 1.25rem 1.5rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--txt-primary);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: color var(--trans-fast);
+}
+
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::marker { display: none; content: ''; }
+
+.faq-question::after {
+    content: '+';
+    font-size: 1.25rem;
+    color: var(--txt-accent);
+    flex-shrink: 0;
+    transition: transform var(--trans-fast);
+}
+
+.faq-item[open] .faq-question::after {
+    content: '−';
+}
+
+.faq-answer {
+    padding: 0 1.5rem 1.25rem;
+    color: var(--txt-secondary);
+    font-size: .925rem;
+    line-height: 1.7;
+}
+
+.faq-answer a {
+    color: var(--txt-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.faq-answer a:hover {
+    color: var(--clr-green-400);
+}
+
 /* ─── 17. RESPONSIVE ────────────────────────────────────────── */
 @media (max-width: 1024px) {
     .hero-container { gap: 2.5rem; }
