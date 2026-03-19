@@ -1,19 +1,10 @@
-Options -MultiViews
+RewriteEngine On
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
+# 1. Redirect URL yang mengandung .php ke versi tanpa ekstensi (Untuk SEO)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
 
-    # Redirect direct .php requests to extensionless URL (SEO canonical)
-    RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
-    RewriteRule ^ %1 [R=301,L]
-
-    # Skip existing files and directories
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
-    RewriteRule ^ - [L]
-
-    # Internally map extensionless URL to .php file
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^(.+)$ $1.php [L,QSA]
-</IfModule>
+# 2. Proses URL tanpa ekstensi agar membaca file .php di server
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

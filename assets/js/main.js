@@ -206,7 +206,7 @@
 
     async function fetchProjects() {
         try {
-            const res  = await fetch('api/projects.php?limit=6');
+            const res  = await fetch('api/projects?limit=6');
             const json = await res.json();
             if (json.success) {
                 renderProjects(json.data);
@@ -225,7 +225,7 @@
 
     async function fetchSocialLinks() {
         try {
-            const res  = await fetch('api/social.php');
+            const res  = await fetch('api/social');
             const json = await res.json();
             if (json.success && json.data.length > 0) {
                 socialLinksEl.innerHTML = json.data.map(link => `
