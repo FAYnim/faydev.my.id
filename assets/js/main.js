@@ -189,7 +189,7 @@
 
             card.innerHTML = `
                 <div class="project-thumb">
-                    <img src="${escHtml(project.thumbnail)}"
+                    <img src="${escHtml(`https://panel.faydev.my.id/${project.thumbnail}`)}"
                          alt="${escHtml(project.title)}"
                          loading="lazy"
                          onerror="this.src='assets/images/project-placeholder.svg'">
