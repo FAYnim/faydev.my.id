@@ -346,12 +346,13 @@ code, pre {
 }
 
 .hero-name {
-    font-size: clamp(3rem, 6vw, 5.5rem);
+    font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 800;
     letter-spacing: -.04em;
-    line-height: 1;
+    line-height: 1.05;
     margin-bottom: .75rem;
 }
+
 .name-accent { color: var(--txt-accent); }
 
 .hero-role {
@@ -1194,6 +1195,7 @@ code, pre {
     .projects-grid { grid-template-columns: 1fr; }
 
     .hero-name { font-size: 2.5rem; }
+    .hero-name--compact { font-size: 2.1rem; }
     .hero-ctas { flex-direction: column; align-items: center; }
     .btn       { width: 100%; justify-content: center; }
 
