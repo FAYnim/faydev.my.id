@@ -282,7 +282,9 @@
                        <div style="background: var(--text-main); border-radius: 4px;"></div><div style="background: var(--accent); border-radius: 4px;"></div><div style="background: var(--text-main); border-radius: 4px;"></div>
                        <div style="background: var(--accent); border-radius: 4px;"></div><div style="background: var(--text-main); border-radius: 4px;"></div><div style="background: var(--accent); border-radius: 4px;"></div>
                     </div>
-                    <i class="fas fa-rocket" style="font-size: 5rem; color: var(--accent); z-index: 1; margin-bottom: 20px;"></i>
+                    <div class="hero-logo-wrapper">
+                        <img src="assets/images/faydev.svg" alt="Faydev Logo" class="hero-logo">
+                    </div>
                     <h3 style="z-index:1; font-family: 'Syne', sans-serif;">Build For Growth</h3>
                 </div>
             </div>
