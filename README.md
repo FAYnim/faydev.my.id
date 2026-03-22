@@ -2,9 +2,9 @@
 
 <img src="assets/images/favicon.svg" alt="Faydev logo" height="64" />
 
-# Faydev — Personal Business Card Website
+# Faydev — Landing Page Jasa Pembuatan Website
 
-**Software & Web Developer untuk UMKM**
+**Jasa Web Developer & Software Developer untuk UMKM Indonesia**
 
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479a1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -16,13 +16,11 @@
 
 ---
 
-A lightweight, single-page portfolio and personal branding site for **Faris AY (Faydev)**, a freelance Software Engineer and Fullstack Developer focused on helping Indonesian SMBs (UMKM) grow through web technology.
-
-The site is built with plain PHP + MySQL for the backend (projects gallery and social links APIs) and vanilla HTML/CSS/JavaScript for the frontend — designed for simple shared hosting with no build tools required.
+A lightweight, high-performance business landing page for **Faydev** (by Faris AY), a web development service specializing in websites, landing pages, automation, and WhatsApp chatbots for Indonesian SMBs (UMKM). Built with plain PHP + MySQL backend (projects gallery and social links APIs) and vanilla HTML/CSS/JavaScript — designed for shared hosting with no build tools required.
 
 ## Overview
 
-The website serves as a digital business card and a primary landing destination from social media channels. It showcases skills, offered services, and a dynamically populated project gallery, funnelling interested visitors toward a WhatsApp consultation CTA.
+The website serves as the primary business landing page for the **Faydev** web development service. Its purpose is to attract potential clients, clearly communicate available services and pricing, showcase completed projects, and funnel visitors toward a WhatsApp consultation CTA.
 
 Key design choices:
 
@@ -32,14 +30,17 @@ Key design choices:
 
 ## Features
 
-- **Hero section** with typing animation, profile photo, and prominent CTAs
-- **About / Skills / Services** sections — hardcoded in HTML for fast rendering
-- **Dynamic project gallery** — latest projects fetched from the database via a PHP JSON API, with skeleton loaders and fallback placeholder images
+- **Hero section** with business tagline, and prominent dual CTAs (konsultasi gratis & lihat portofolio)
+- **Services section** — 4 service cards: Web Development (company profile, e-commerce, CMS), Landing Page, Automation (Google Sheets, automated reports), and Chatbot WhatsApp
+- **Pricing section** — 3 packages: Landing Page (Rp 1.5jt), Company Profile (Rp 2.5jt), and Custom Web (custom quote)
+- **Testimonials / stats section** — social proof counters: 50+ projects, 99% client satisfaction, 100% on-time delivery
+- **Dynamic project portfolio gallery** — latest projects fetched from the database via a PHP JSON API, with skeleton loaders and fallback placeholder images
+- **About section** — company and founder introduction
 - **Social links** — injected from database, with static fallbacks if the API is unavailable
 - **Dark / Light theme toggle** — preference persisted in `localStorage`
-- **WhatsApp integration** — pre-filled CTA links for instant consultation
+- **WhatsApp CTA integration** — pre-filled links for instant consultation throughout the page
 - **Scroll animations** and back-to-top button
-- **SEO ready** — `<title>`, meta description, Open Graph and Twitter Card tags
+- **SEO ready** — `<title>`, meta description, Open Graph, Twitter Card tags, JSON-LD structured data, `robots.txt`, and `sitemap.xml`
 
 ## Project structure
 
@@ -47,6 +48,8 @@ Key design choices:
 faydev.my.id/
 ├── index.php           # Single-page entry point (HTML + PHP date)
 ├── database.sql        # MySQL schema and seed data
+├── robots.txt          # Crawler directives
+├── sitemap.xml         # XML sitemap for search engines
 ├── includes/
 │   └── db.php          # PDO connection helper (DB_HOST, DB_USER, DB_PASS, DB_NAME)
 ├── api/
@@ -169,13 +172,13 @@ Both endpoints return `{ "success": false, "message": "Database error" }` with H
 
 | What to change | Where |
 |---|---|
-| Personal info, hero text, skills, services | `index.php` (hardcoded HTML) |
+| Business info, hero text, service offerings, pricing | `index.php` (hardcoded HTML) |
 | WhatsApp number | All `wa.me/` links in `index.php` |
 | Database credentials | `includes/db.php` |
 | Project gallery entries | `projects` table in MySQL |
 | Social media links | `social_links` table in MySQL |
 | Colours and typography | CSS custom properties at the top of `assets/css/style.css` |
-| Profile photo | Replace `assets/images/profile.jpg` |
+| Profile / brand photo | Replace `assets/images/profile.jpg` |
 | OG / social share image | Replace `assets/images/og-image.jpg` |
 
 > [!TIP]

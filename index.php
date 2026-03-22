@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO: Primary Meta Tags -->
-    <title>Faris AY - Faydev | Jasa Developer Web & Software UMKM</title>
-    <meta name="description" content="Jasa pembuatan website, landing page, automation & chatbot WA untuk UMKM Indonesia oleh Faydev. Tingkatkan bisnis Anda sekarang. Konsultasi gratis!">
-    <meta name="keywords" content="jasa web developer UMKM Indonesia, jasa buat website UMKM, jasa landing page UMKM, jasa chatbot WhatsApp, web developer freelance Indonesia, software developer UMKM, fullstack developer Indonesia, Faris AY, Faydev">
+    <title>Faydev | Jasa Pembuatan Website & Landing Page untuk UMKM</title>
+    <meta name="description" content="Jasa pembuatan website profesional, landing page, automation & chatbot WhatsApp untuk UMKM Indonesia. Desain modern, SEO-ready, mobile-first. Mulai dari Rp 1.500.000. Konsultasi gratis!">
+    <meta name="keywords" content="jasa pembuatan website UMKM, jasa web developer Indonesia, jasa landing page murah, jasa chatbot WhatsApp, website company profile UMKM, jasa website profesional Indonesia, web developer freelance Indonesia, Faydev, Faris AY, jasa website murah berkualitas">
     <meta name="author" content="Faris AY">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://faydev.my.id/">
@@ -20,8 +20,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type"         content="website">
     <meta property="og:url"          content="https://faydev.my.id/">
-    <meta property="og:title"        content="Faris AY | Faydev — Jasa Web Developer & Software Developer untuk UMKM Indonesia">
-    <meta property="og:description"  content="Spesialis jasa pembuatan website, landing page, automation & chatbot WhatsApp untuk UMKM. 4+ tahun pengalaman, 5+ project selesai. Konsultasi gratis.">
+    <meta property="og:title"        content="Faydev — Jasa Pembuatan Website & Landing Page untuk UMKM Indonesia">
+    <meta property="og:description"  content="Spesialis jasa pembuatan website profesional, landing page, automation & chatbot WhatsApp untuk UMKM Indonesia. 50+ project selesai, desain modern, SEO-ready. Konsultasi gratis!">
     <meta property="og:image"        content="https://faydev.my.id/assets/images/og-image.jpg">
     <meta property="og:image:width"  content="1200">
     <meta property="og:image:height" content="630">
@@ -31,8 +31,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card"        content="summary_large_image">
-    <meta name="twitter:title"       content="Faris AY | Faydev — Jasa Web Developer untuk UMKM">
-    <meta name="twitter:description" content="Spesialis jasa pembuatan website, landing page, automation & chatbot WhatsApp untuk UMKM Indonesia. Konsultasi gratis.">
+    <meta name="twitter:title"       content="Faydev — Jasa Pembuatan Website untuk UMKM Indonesia">
+    <meta name="twitter:description" content="Jasa website profesional, landing page & chatbot WhatsApp untuk UMKM. 50+ project. Konsultasi gratis!">
     <meta name="twitter:image"       content="https://faydev.my.id/assets/images/og-image.jpg">
     <meta name="twitter:image:alt"   content="Faris AY — Software & Web Developer untuk UMKM Indonesia">
 
@@ -46,7 +46,7 @@
                 "@id": "https://faydev.my.id/#website",
                 "url": "https://faydev.my.id/",
                 "name": "Faydev",
-                "description": "Jasa Web Developer & Software Developer untuk UMKM Indonesia",
+                "description": "Jasa pembuatan website profesional, landing page, automation & chatbot WhatsApp untuk UMKM Indonesia",
                 "publisher": { "@id": "https://faydev.my.id/#person" },
                 "inLanguage": "id-ID"
             },
@@ -54,10 +54,10 @@
                 "@type": "WebPage",
                 "@id": "https://faydev.my.id/#webpage",
                 "url": "https://faydev.my.id/",
-                "name": "Faris AY | Faydev — Jasa Web Developer & Software Developer untuk UMKM Indonesia",
+                "name": "Faydev — Jasa Pembuatan Website & Landing Page untuk UMKM Indonesia",
                 "isPartOf": { "@id": "https://faydev.my.id/#website" },
                 "about": { "@id": "https://faydev.my.id/#person" },
-                "description": "Faris AY (Faydev) adalah Software Engineer & Fullstack Developer spesialis jasa pembuatan website, landing page, automation, dan chatbot WhatsApp untuk UMKM dan bisnis kecil di Indonesia.",
+                "description": "Faydev adalah jasa web developer profesional yang spesialis membuat website, landing page, automation, dan chatbot WhatsApp untuk UMKM dan bisnis kecil di Indonesia.",
                 "inLanguage": "id-ID",
                 "dateModified": "<?php echo date('Y-m-d'); ?>"
             },
@@ -134,7 +134,13 @@
                         }
                     ]
                 },
-                "priceRange": "$$"
+                "priceRange": "Rp 1.500.000 – Rp 2.500.000+",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer service",
+                    "availableLanguage": "Indonesian",
+                    "contactOption": "TollFree"
+                }
             },
             {
                 "@type": "FAQPage",
@@ -153,7 +159,7 @@
                         "name": "Berapa lama pengalaman Faydev sebagai web developer?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "Faydev (Faris AY) memiliki pengalaman 4+ tahun sebagai Software Engineer & Fullstack Developer, dengan 5+ project yang telah diselesaikan untuk UMKM dan bisnis kecil di Indonesia."
+                            "text": "Faydev (Faris AY) memiliki pengalaman 4+ tahun sebagai Software Engineer & Fullstack Developer, dengan 50+ project yang telah diselesaikan untuk UMKM dan bisnis kecil di Indonesia."
                         }
                     },
                     {
