@@ -396,8 +396,7 @@
                 </div>
             </div>
 
-            <div class="service-card service-card--featured reveal-up" style="--delay:.1s">
-                <div class="service-badge">Popular</div>
+            <div class="service-card reveal-up" style="--delay:.1s">
                 <div class="service-icon">
                     <i class="fas fa-rocket"></i>
                 </div>
