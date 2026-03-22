@@ -217,10 +217,11 @@
         </a>
 
         <ul class="nav-links" id="navLinks">
-            <li><a href="#about"    class="nav-link">About</a></li>
-            <li><a href="#skills"   class="nav-link">Skills</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#about"    class="nav-link">Tentang Kami</a></li>
+            
+            <li><a href="#services" class="nav-link">Layanan</a></li>
+            <li><a href="#pricing" class="nav-link">Harga</a></li>
+            <li><a href="#projects" class="nav-link">Portofolio</a></li>
             <li><a href="#contact"  class="nav-link">Contact</a></li>
             <li><a href="#faq"      class="nav-link">FAQ</a></li>
         </ul>
@@ -247,55 +248,42 @@
     <div class="hero-container">
         <div class="hero-content">
             <div class="hero-badge reveal-up" style="--delay:0s">
-                <span class="badge-dot"></span>
-                <span>Available for projects</span>
+                <span class="badge-dot" style="background-color: var(--accent);"></span>
+                <span style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem;">Solusi Digital</span>
             </div>
 
             <h1 class="hero-name reveal-up" style="--delay:.1s">
-                Faris <span class="name-accent">AY</span>
-                <span class="sr-only"> — Software Engineer & Fullstack Developer untuk UMKM Indonesia</span>
+                Jasa Pembuatan <br><span class="name-accent">Website Profesional</span>
             </h1>
 
-            <div class="hero-role reveal-up" style="--delay:.2s">
-                <span class="role-prefix">&gt; </span><span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span>
-            </div>
-
-            <p class="hero-desc reveal-up" style="--delay:.35s">
-                Membangun solusi digital yang <em>berdampak nyata</em> untuk bisnis kecil dan UMKM mulai dari website, landing page, hingga otomasi dan chatbot.
+            <p class="hero-desc reveal-up" style="--delay:.35s" style="font-size: 1.2rem; max-width: 600px; margin-top: 1rem;">
+                Solusi digital untuk bisnis Anda. Tingkatkan kredibilitas dan jangkauan pasar dengan website yang didesain modern, cepat, dan dioptimasi untuk konversi.
             </p>
 
-            <div class="hero-ctas reveal-up" style="--delay:.45s">
+            <div class="hero-ctas reveal-up" style="--delay:.45s" style="margin-top: 2rem;">
                 <a href="#projects" class="btn btn--primary">
-                    <i class="fas fa-folder-open"></i>
-                    Lihat Project
+                    <i class="fas fa-arrow-right"></i>
+                    Lihat Portofolio
                 </a>
-                <a href="https://wa.me/6281234567890?text=Halo%20Faris%2C%20saya%20ingin%20konsultasi%20tentang%20project%20saya." 
+                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20ingin%20konsultasi%20pembuatan%20website." 
                    class="btn btn--whatsapp" target="_blank" rel="noopener">
                     <i class="fab fa-whatsapp"></i>
-                    Konsultasi WhatsApp
+                    Konsultasi via WhatsApp
                 </a>
             </div>
         </div>
 
         <div class="hero-visual reveal-right" style="--delay:.2s">
-            <div class="profile-frame">
-                <div class="profile-ring"></div>
-                <div class="profile-img-wrap">
-                    <img src="assets/images/faydev.my.id-profile-picture.webp" 
-                         alt="Faris AY — Software & Web Developer" 
-                         class="profile-img"
-                         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div class="profile-placeholder" style="display:none">
-                        <span>FA</span>
+            <div class="hero-image-wrapper" style="position: relative; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border: 1px solid var(--border);">
+                <!-- Replace with an abstract business graphic or solid styled div for now -->
+                <div style="background: linear-gradient(135deg, var(--bg-card), var(--bg-hover)); width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; flex-direction: column; position: relative;">
+                    <div style="position: absolute; top:0; left:0; right:0; bottom:0; padding:10%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; opacity: 0.1;">
+                       <!-- Abstract grid -->
+                       <div style="background: var(--text-main); border-radius: 4px;"></div><div style="background: var(--accent); border-radius: 4px;"></div><div style="background: var(--text-main); border-radius: 4px;"></div>
+                       <div style="background: var(--accent); border-radius: 4px;"></div><div style="background: var(--text-main); border-radius: 4px;"></div><div style="background: var(--accent); border-radius: 4px;"></div>
                     </div>
-                </div>
-                <div class="stat-card stat-card--top">
-                    <span class="stat-num">4+</span>
-                    <span class="stat-label">Tahun exp.</span>
-                </div>
-                <div class="stat-card stat-card--bottom">
-                    <span class="stat-num">5+</span>
-                    <span class="stat-label">Projects selesai</span>
+                    <i class="fas fa-rocket" style="font-size: 5rem; color: var(--accent); z-index: 1; margin-bottom: 20px;"></i>
+                    <h3 style="z-index:1; font-family: 'Syne', sans-serif;">Build For Growth</h3>
                 </div>
             </div>
         </div>
@@ -306,110 +294,76 @@
         <i class="fas fa-chevron-down"></i>
     </div>
 </section>
+
+<!-- STATS BANNER BARU -->
+<section class="stats-banner" style="background-color: var(--bg-card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 3rem 0;">
+    <div class="container">
+        <div class="stats-grid" style="display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 2rem;">
+            <div class="stat-item reveal-up" style="--delay: 0.1s;">
+                <div style="font-family: 'Syne', sans-serif; font-size: 3rem; font-weight: 700; color: var(--accent);">50+</div>
+                <div style="color: var(--text-dim); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Project Selesai</div>
+            </div>
+            <div class="stat-item reveal-up" style="--delay: 0.2s;">
+                <div style="font-family: 'Syne', sans-serif; font-size: 3rem; font-weight: 700; color: var(--accent);">99%</div>
+                <div style="color: var(--text-dim); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Client Puas</div>
+            </div>
+            <div class="stat-item reveal-up" style="--delay: 0.3s;">
+                <div style="font-family: 'Syne', sans-serif; font-size: 3rem; font-weight: 700; color: var(--accent);">100%</div>
+                <div style="color: var(--text-dim); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Tepat Waktu</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section about-section" id="about">
     <div class="container">
         <div class="section-header reveal-up">
             <span class="section-tag">// 01</span>
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">Tentang Faydev</h2>
         </div>
 
         <div class="about-grid">
             <div class="about-text reveal-up" style="--delay:.1s">
                 <p class="about-lead">
-                    Halo! Saya <strong>Faris AY</strong>, seorang <em>Software Engineer & Fullstack Developer</em> yang berfokus membantu UMKM dan bisnis kecil bertumbuh lewat teknologi modern.
+                    <strong>Faydev</strong> berdedikasi untuk membantu UMKM dan bisnis berkembang melalui kehadiran digital yang solid.
                 </p>
                 <p>
-                    Berbekal pengalaman dalam pengembangan perangkat lunak, saya merancang solusi digital yang praktis dan berdampak nyata. Mulai dari pembuatan toko online, landing page, hingga integrasi kecerdasan buatan (AI) dan sistem otomasi alur kerja.
+                    Kami bukan sekadar mengoding, tapi mengerti kebutuhan bisnis Anda. Mulai dari landing page konversi tinggi hingga sistem otomatisasi, kami merancang teknologi sebagai investasi, bukan sekadar biaya.
                 </p>
                 <p>
-                    Saya percaya teknologi hadir untuk membantu orang bekerja lebih cerdas. Oleh karena itu, saya berkomitmen untuk <em>menghadirkan solusi teknologi yang efisien, terjangkau, dan dapat diandalkan</em> untuk mendongkrak efisiensi bisnis Anda.
+                    Kini saatnya bisnis Anda tampil lebih profesional, menjangkau pasar lebih luas, dan beroperasi lebih cerdas.
                 </p>
-                <div class="about-facts">
-                    <div class="fact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Indonesia</span>
+                <div class="about-facts" style="margin-top: 1.5rem; gap: 1rem;">
+                    <div class="fact-item" style="border-radius: 8px;">
+                        <i class="fas fa-check-circle" style="color:var(--accent);"></i>
+                        <span style="font-weight: 600;">Desain Modern</span>
                     </div>
-                    <div class="fact-item">
-                        <i class="fas fa-briefcase"></i>
-                        <span>Freelance & Remote</span>
-                    </div>
-                    <div class="fact-item">
-                        <i class="fas fa-clock"></i>
-                        <span>Fast Turnaround</span>
+                    <div class="fact-item" style="border-radius: 8px;">
+                        <i class="fas fa-bolt" style="color:var(--accent);"></i>
+                        <span style="font-weight: 600;">SEO & Fast Load</span>
                     </div>
                 </div>
             </div>
 
-            <div class="about-terminal reveal-up" style="--delay:.2s">
-                <div class="terminal-header">
-                    <span class="terminal-dot t-red"></span>
-                    <span class="terminal-dot t-yellow"></span>
-                    <span class="terminal-dot t-green"></span>
-                    <span class="terminal-title">faydev.json</span>
-                </div>
-                <pre class="terminal-body"><code><span class="t-punct">{</span>
-  <span class="t-key">"name"</span><span class="t-punct">:</span> <span class="t-str">"Faris AY"</span><span class="t-punct">,</span>
-  <span class="t-key">"alias"</span><span class="t-punct">:</span> <span class="t-str">"faydev"</span><span class="t-punct">,</span>
-  <span class="t-key">"role"</span><span class="t-punct">:</span> <span class="t-str">"Fullstack Developer"</span><span class="t-punct">,</span>
-  <span class="t-key">"focus"</span><span class="t-punct">:</span> <span class="t-str">"UMKM &amp; Small Business"</span><span class="t-punct">,</span>
-  <span class="t-key">"experience"</span><span class="t-punct">:</span> <span class="t-num">4</span><span class="t-punct">,</span>
-  <span class="t-key">"projects_done"</span><span class="t-punct">:</span> <span class="t-num">5</span><span class="t-punct">,</span>
-  <span class="t-key">"available"</span><span class="t-punct">:</span> <span class="t-bool">true</span><span class="t-punct">,</span>
-  <span class="t-key">"services"</span><span class="t-punct">:</span> <span class="t-punct">[</span>
-    <span class="t-str">"Web Development"</span><span class="t-punct">,</span>
-    <span class="t-str">"Landing Page"</span><span class="t-punct">,</span>
-    <span class="t-str">"Automation"</span><span class="t-punct">,</span>
-    <span class="t-str">"Chatbot"</span>
-  <span class="t-punct">]</span>
-<span class="t-punct">}</span></code></pre>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section skills-section" id="skills">
-    <div class="container">
-        <div class="section-header reveal-up">
-            <span class="section-tag">// 02</span>
-            <h2 class="section-title">Skills</h2>
-        </div>
-
-        <div class="skills-grid">
-            <div class="skill-group reveal-up" style="--delay:.05s">
-                <div class="skill-group-header">
-                    <i class="fas fa-desktop"></i>
-                    <span>Frontend</span>
-                </div>
-                <ul class="skill-list">
-                    <li class="skill-item"><span class="skill-name">HTML5</span><div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">CSS3</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">Bootstrap</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></li>
-                </ul>
-            </div>
-
-            <div class="skill-group reveal-up" style="--delay:.1s">
-                <div class="skill-group-header">
-                    <i class="fas fa-server"></i>
-                    <span>Backend</span>
-                </div>
-                <ul class="skill-list">
-                    <li class="skill-item"><span class="skill-name">PHP</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">MySQL</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">REST API</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">Laravel</span><div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div></li>
-                </ul>
-            </div>
-
-            <div class="skill-group reveal-up" style="--delay:.15s">
-                <div class="skill-group-header">
-                    <i class="fas fa-robot"></i>
-                    <span>Automation & Tools</span>
-                </div>
-                <ul class="skill-list">
-                    <li class="skill-item"><span class="skill-name">WhatsApp API</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">Google Sheets</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">Git / GitHub</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></li>
-                    <li class="skill-item"><span class="skill-name">cPanel / Hosting</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></li>
+            <div class="about-features reveal-up" style="--delay:.2s" style="background: var(--bg-card); padding: 2rem; border-radius: 16px; border: 1px solid var(--border);">
+                <h3 style="font-family: 'Syne', sans-serif; margin-bottom: 1.5rem; font-size: 1.5rem;">Kenapa Memilih Kami?</h3>
+                <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:1.2rem;">
+                    <li style="display:flex; align-items:flex-start; gap:1rem;">
+                        <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-pen-nib"></i></span>
+                        <div><strong style="display:block; margin-bottom:0.2rem;">Free Copywriting</strong>Desain menarik didukung teks copywriting persuasif untuk meningkatkan konversi pemasaran.</div>
+                    </li>
+                    <li style="display:flex; align-items:flex-start; gap:1rem;">
+                        <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-shield-alt"></i></span>
+                        <div><strong style="display:block; margin-bottom:0.2rem;">Kualitas Terjamin</strong>Cepat, responsif di mobile, dan siap SEO. Kualitas setara standar industri.</div>
+                    </li>
+                    <li style="display:flex; align-items:flex-start; gap:1rem;">
+                        <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-box-open"></i></span>
+                        <div><strong style="display:block; margin-bottom:0.2rem;">Tinggal Terima Beres</strong>Mulai dari desain, development, hingga setup hosting—semuanya kami tangani.</div>
+                    </li>
+                    <li style="display:flex; align-items:flex-start; gap:1rem;">
+                        <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-headset"></i></span>
+                        <div><strong style="display:block; margin-bottom:0.2rem;">Full Support</strong>Siap membantu kendala teknis kapan pun, keamanan bisnis Anda prioritas kami.</div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -515,6 +469,62 @@
         </div>
     </div>
 </section>
+
+<!-- PRICING SECTION BARU -->
+<section class="section pricing-section" id="pricing" style="background: var(--bg-card); border-top: 1px solid var(--border);">
+    <div class="container">
+        <div class="section-header reveal-up">
+            <span class="section-tag" style="color:var(--accent);">// 03</span>
+            <h2 class="section-title">Harga Spesial</h2>
+            <p style="margin-top: 1rem; color: var(--text-dim); max-width: 600px;">Pilihan paket layanan terbaik untuk mendongkrak performa bisnis Anda secara digital.</p>
+        </div>
+
+        <div style="margin-bottom: 2rem; display: flex; gap: 2rem; flex-wrap: wrap;">
+            <!-- Landing Page Pricing -->
+            <div class="pricing-card reveal-up" style="--delay:0.1s; background: var(--bg-main); border: 1px solid var(--border); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column;">
+                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Landing Page</h3>
+                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Satu halaman teroptimasi konversi langsung terhubung ke WhatsApp.</p>
+                <div style="font-size: 2rem; font-weight: 700; color: var(--accent); margin-bottom: 1.5rem;">Mulai Rp 1.500.000</div>
+                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Free Domain & Hosting</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Desain Responsif</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Copywriting Persuasif</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Integrasi WhatsApp</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Landing%20Page." class="btn btn--primary" style="width: 100%; text-align: center;">Pesan Sekarang</a>
+            </div>
+
+            <!-- Company Profile Pricing -->
+            <div class="pricing-card reveal-up" style="--delay:0.2s; background: linear-gradient(135deg, var(--bg-main), var(--bg-card)); border: 1px solid var(--accent); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column; position: relative;">
+                <div style="position: absolute; top: -12px; right: 20px; background: var(--accent); color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">BEST VALUE</div>
+                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Company Profile</h3>
+                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Tampil kredibel dengan website multipage untuk profil perusahaan.</p>
+                <div style="font-size: 2rem; font-weight: 700; color: var(--accent); margin-bottom: 1.5rem;">Mulai Rp 2.500.000</div>
+                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Desain Premium Clean</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>3 - 5 Halaman Utama</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>SEO On-Page Basic</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Garansi Maintenance</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Company%20Profile." class="btn btn--primary" style="width: 100%; text-align: center; background: var(--text-main); color: var(--bg-main);">Pesan Sekarang</a>
+            </div>
+            
+            <!-- Custom Web / Toko Online -->
+             <div class="pricing-card reveal-up" style="--delay:0.3s; background: var(--bg-main); border: 1px solid var(--border); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column;">
+                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Custom Web</h3>
+                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Sistem custom, toko online, atau otomasi yang lebih kompleks.</p>
+                <div style="font-size: 1.8rem; font-weight: 700; color: var(--text-main); margin-bottom: 1.5rem;">Hubungi Kami</div>
+                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Kustomisasi Fitur Penuh</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Integrasi Payment Gateway</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Dashboard Admin</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20ingin%20konsultasi%20untuk%20website%20custom." class="btn btn--primary" style="width: 100%; text-align: center; background: transparent; border: 1px solid var(--border);">Konsultasi Gratis</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section projects-section" id="projects">
     <div class="container">
         <div class="section-header reveal-up">
@@ -543,19 +553,19 @@
 <section class="section contact-section" id="contact">
     <div class="container">
         <div class="contact-wrap reveal-up">
-            <div class="contact-bg-text" aria-hidden="true">Let's Talk</div>
+            <div class="contact-bg-text" aria-hidden="true" style="font-size: clamp(3rem, 10vw, 8rem);">Scale Up!</div>
 
             <div class="contact-content">
                 <span class="section-tag">// 05</span>
-                <h2 class="contact-title">Siap Memulai Project?</h2>
+                <h2 class="contact-title" style="font-size: 2.5rem; line-height: 1.2;">Siap Bikin Website Profesional untuk Bisnismu?</h2>
                 <p class="contact-desc">
-                    Ceritakan kebutuhan bisnis Anda. Saya siap membantu menemukan solusi digital yang tepat. Konsultasi pertama <strong>gratis</strong>.
+                    Konsultasikan kebutuhan digital Anda sekarang dan dapatkan solusi terbaik untuk meningkatkan konversi dan visibilitas bisnis. Konsultasi pertama <strong>gratis</strong>.
                 </p>
 
-                <a href="https://wa.me/6281234567890?text=Halo%20Faris%2C%20saya%20ingin%20konsultasi%20mengenai%20project%20saya." 
-                   class="btn btn--whatsapp btn--large" target="_blank" rel="noopener">
+                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20ingin%20konsultasi%20pembuatan%20website%20profesional." 
+                   class="btn btn--whatsapp btn--large" target="_blank" rel="noopener" style="font-size: 1.2rem; padding: 1rem 2rem; border-radius: 50px;">
                     <i class="fab fa-whatsapp"></i>
-                    Konsultasi via WhatsApp
+                    Konsultasi via WhatsApp Sekarang
                 </a>
 
                 <div class="contact-note">
