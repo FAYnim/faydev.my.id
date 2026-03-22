@@ -793,6 +793,103 @@ code, pre {
     color: var(--clr-green-300, var(--clr-green-400));
 }
 
+/* --- PRICING SECTION --- */
+.pricing-section {
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    position: relative;
+    transition: all var(--trans-mid);
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card:hover {
+    border-color: rgba(74,222,128,.4);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(34,197,94,.1);
+}
+
+.pricing-card--featured {
+    border-color: rgba(74,222,128,.35);
+    background: linear-gradient(145deg, var(--card-bg), rgba(34,197,94,.04));
+}
+
+.pricing-badge {
+    position: absolute;
+    top: -12px;
+    right: 1.5rem;
+    background: var(--clr-green-500);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.pricing-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-desc {
+    color: var(--txt-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--txt-accent);
+    margin-bottom: 1.5rem;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.pricing-features li {
+    position: relative;
+    padding-left: 1.7rem;
+    color: var(--txt-secondary);
+    font-size: 0.9rem;
+}
+
+.pricing-features li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--txt-accent);
+    font-size: 0.9rem;
+}
+
 .projects-section { background: var(--bg-base); }
 
 .projects-grid {
@@ -1149,6 +1246,7 @@ code, pre {
     .about-grid     { gap: 2.5rem; }
     .skills-grid    { grid-template-columns: repeat(2, 1fr); }
     .services-grid  { grid-template-columns: repeat(2, 1fr); }
+    .pricing-grid   { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -1188,6 +1286,8 @@ code, pre {
     .skills-grid { grid-template-columns: 1fr; }
 
     .services-grid { grid-template-columns: 1fr; }
+
+    .pricing-grid { grid-template-columns: 1fr; }
 
     .projects-grid { grid-template-columns: repeat(2, 1fr); }
 }

@@ -466,55 +466,61 @@
 </section>
 
 <!-- PRICING SECTION BARU -->
-<section class="section pricing-section" id="pricing" style="background: var(--bg-card); border-top: 1px solid var(--border);">
+<section class="section pricing-section" id="pricing">
     <div class="container">
         <div class="section-header reveal-up">
             <span class="section-tag" style="color:var(--accent);">// 03</span>
-            <h2 class="section-title">Harga Spesial</h2>
+            <h2 class="section-title">Pricelist Layanan</h2>
             <p style="margin-top: 1rem; color: var(--text-dim); max-width: 600px;">Pilihan paket layanan terbaik untuk mendongkrak performa bisnis Anda secara digital.</p>
         </div>
 
-        <div style="margin-bottom: 2rem; display: flex; gap: 2rem; flex-wrap: wrap;">
+        <div class="pricing-grid">
             <!-- Landing Page Pricing -->
-            <div class="pricing-card reveal-up" style="--delay:0.1s; background: var(--bg-main); border: 1px solid var(--border); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column;">
-                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Landing Page</h3>
-                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Satu halaman teroptimasi konversi langsung terhubung ke WhatsApp.</p>
-                <div style="font-size: 2rem; font-weight: 700; color: var(--accent); margin-bottom: 1.5rem;">Mulai Rp 1.500.000</div>
-                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Free Domain & Hosting</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Desain Responsif</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Copywriting Persuasif</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Integrasi WhatsApp</li>
+            <div class="pricing-card reveal-up" style="--delay:0.1s;">
+                <h3 class="pricing-title">Landing Page</h3>
+                <p class="pricing-desc">Satu halaman teroptimasi konversi langsung terhubung ke WhatsApp.</p>
+                <div class="pricing-price">Rp 1.500.000</div>
+                <ul class="pricing-features">
+                    <li>Free Domain & Hosting</li>
+                    <li>Desain Responsif</li>
+                    <li>Copywriting Persuasif</li>
+                    <li>Integrasi WhatsApp</li>
                 </ul>
-                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Landing%20Page." class="btn btn--primary" style="width: 100%; text-align: center;">Pesan Sekarang</a>
+                <div style="margin-top: auto;">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Landing%20Page." class="btn btn--primary" style="width: 100%; justify-content: center;">Pesan Sekarang</a>
+                </div>
             </div>
 
             <!-- Company Profile Pricing -->
-            <div class="pricing-card reveal-up" style="--delay:0.2s; background: linear-gradient(135deg, var(--bg-main), var(--bg-card)); border: 1px solid var(--accent); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column; position: relative;">
-                <div style="position: absolute; top: -12px; right: 20px; background: var(--accent); color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">BEST VALUE</div>
-                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Company Profile</h3>
-                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Tampil kredibel dengan website multipage untuk profil perusahaan.</p>
-                <div style="font-size: 2rem; font-weight: 700; color: var(--accent); margin-bottom: 1.5rem;">Mulai Rp 2.500.000</div>
-                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Desain Premium Clean</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>3 - 5 Halaman Utama</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>SEO On-Page Basic</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent); margin-right: 8px;"></i>Garansi Maintenance</li>
+            <div class="pricing-card pricing-card--featured reveal-up" style="--delay:0.2s;">
+                <div class="pricing-badge">BEST VALUE</div>
+                <h3 class="pricing-title">Company Profile</h3>
+                <p class="pricing-desc">Tampil kredibel dengan website multipage untuk profil perusahaan.</p>
+                <div class="pricing-price">Rp 2.500.000</div>
+                <ul class="pricing-features">
+                    <li>Desain Premium Clean</li>
+                    <li>3 - 5 Halaman Utama</li>
+                    <li>SEO On-Page Basic</li>
+                    <li>Garansi Maintenance</li>
                 </ul>
-                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Company%20Profile." class="btn btn--primary" style="width: 100%; text-align: center; background: var(--text-main); color: var(--bg-main);">Pesan Sekarang</a>
+                <div style="margin-top: auto;">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20tertarik%20dengan%20paket%20Company%20Profile." class="btn btn--primary" style="width: 100%; justify-content: center;">Pesan Sekarang</a>
+                </div>
             </div>
             
             <!-- Custom Web / Toko Online -->
-             <div class="pricing-card reveal-up" style="--delay:0.3s; background: var(--bg-main); border: 1px solid var(--border); padding: 2rem; border-radius: 12px; flex: 1; min-width: 300px; display: flex; flex-direction: column;">
-                <h3 style="font-family: 'Syne', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Custom Web</h3>
-                <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Sistem custom, toko online, atau otomasi yang lebih kompleks.</p>
-                <div style="font-size: 1.8rem; font-weight: 700; color: var(--text-main); margin-bottom: 1.5rem;">Hubungi Kami</div>
-                <ul style="list-style: none; padding: 0; margin-bottom: 2rem; flex-grow: 1;">
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Kustomisasi Fitur Penuh</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Integrasi Payment Gateway</li>
-                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--text-dim); margin-right: 8px;"></i>Dashboard Admin</li>
+             <div class="pricing-card reveal-up" style="--delay:0.3s;">
+                <h3 class="pricing-title">Custom Web</h3>
+                <p class="pricing-desc">Sistem custom, toko online, atau otomasi yang lebih kompleks.</p>
+                <div class="pricing-price" style="color: var(--text-main);">Hubungi Kami</div>
+                <ul class="pricing-features">
+                    <li>Kustomisasi Fitur Penuh</li>
+                    <li>Integrasi Payment Gateway</li>
+                    <li>Dashboard Admin</li>
                 </ul>
-                <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20ingin%20konsultasi%20untuk%20website%20custom." class="btn btn--primary" style="width: 100%; text-align: center; background: transparent; border: 1px solid var(--border);">Konsultasi Gratis</a>
+                <div style="margin-top: auto;">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Faydev%2C%20saya%20ingin%20konsultasi%20untuk%20website%20custom." class="btn btn--primary" style="width: 100%; justify-content: center;">Konsultasi Gratis</a>
+                </div>
             </div>
         </div>
     </div>
