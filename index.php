@@ -349,16 +349,12 @@
                 <h3 style="font-family: 'Syne', sans-serif; margin-bottom: 1.5rem; font-size: 1.5rem;">Kenapa Memilih Kami?</h3>
                 <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:1.2rem;">
                     <li style="display:flex; align-items:flex-start; gap:1rem;">
-                        <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-pen-nib"></i></span>
-                        <div><strong style="display:block; margin-bottom:0.2rem;">Free Copywriting</strong>Desain menarik didukung teks copywriting persuasif untuk meningkatkan konversi pemasaran.</div>
-                    </li>
-                    <li style="display:flex; align-items:flex-start; gap:1rem;">
                         <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-shield-alt"></i></span>
                         <div><strong style="display:block; margin-bottom:0.2rem;">Kualitas Terjamin</strong>Cepat, responsif di mobile, dan siap SEO. Kualitas setara standar industri.</div>
                     </li>
                     <li style="display:flex; align-items:flex-start; gap:1rem;">
                         <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-box-open"></i></span>
-                        <div><strong style="display:block; margin-bottom:0.2rem;">Tinggal Terima Beres</strong>Mulai dari desain, development, hingga setup hosting—semuanya kami tangani.</div>
+                        <div><strong style="display:block; margin-bottom:0.2rem;">Tinggal Terima Beres</strong>Mulai dari desain, development, hingga setup hosting. Semuanya kami tangani.</div>
                     </li>
                     <li style="display:flex; align-items:flex-start; gap:1rem;">
                         <span style="background:var(--bg-hover); color:var(--accent); padding:10px; border-radius:8px;"><i class="fas fa-headset"></i></span>
