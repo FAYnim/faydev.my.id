@@ -22,7 +22,7 @@
     <meta property="og:url"          content="https://faydev.my.id/">
     <meta property="og:title"        content="Faydev — Jasa Pembuatan Website & Landing Page untuk UMKM Indonesia">
     <meta property="og:description"  content="Spesialis jasa pembuatan website profesional, landing page, automation & chatbot WhatsApp untuk UMKM Indonesia. 50+ project selesai, desain modern, SEO-ready. Konsultasi gratis!">
-    <meta property="og:image"        content="https://faydev.my.id/assets/images/og-image.jpg">
+    <meta property="og:image"        content="https://faydev.my.id/assets/images/og-image.png">
     <meta property="og:image:width"  content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt"    content="Faris AY — Software & Web Developer untuk UMKM Indonesia">
@@ -33,7 +33,7 @@
     <meta name="twitter:card"        content="summary_large_image">
     <meta name="twitter:title"       content="Faydev — Jasa Pembuatan Website untuk UMKM Indonesia">
     <meta name="twitter:description" content="Jasa website profesional, landing page & chatbot WhatsApp untuk UMKM. 50+ project. Konsultasi gratis!">
-    <meta name="twitter:image"       content="https://faydev.my.id/assets/images/og-image.jpg">
+    <meta name="twitter:image"       content="https://faydev.my.id/assets/images/og-image.png">
     <meta name="twitter:image:alt"   content="Faris AY — Software & Web Developer untuk UMKM Indonesia">
 
     <!-- JSON-LD Structured Data: Person + ProfessionalService -->
@@ -90,7 +90,7 @@
                 "provider": { "@id": "https://faydev.my.id/#person" },
                 "url": "https://faydev.my.id/",
                 "logo": "https://faydev.my.id/assets/images/faydev-logo.webp",
-                "image": "https://faydev.my.id/assets/images/og-image.jpg",
+                "image": "https://faydev.my.id/assets/images/og-image.png",
                 "description": "Jasa pembuatan website, landing page, automation, dan chatbot WhatsApp untuk UMKM dan bisnis kecil di Indonesia. Freelance, remote, fast turnaround.",
                 "areaServed": {
                     "@type": "Country",
